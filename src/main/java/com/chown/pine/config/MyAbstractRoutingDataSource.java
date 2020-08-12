@@ -40,17 +40,20 @@ public class MyAbstractRoutingDataSource extends AbstractRoutingDataSource
 
     private AtomicInteger count = new AtomicInteger(0);
 
+    /**
+     *通过determineCurrentLookupKey()方法获取一个key，
+     *通过key从targetDataSources中获取数据源DataSource对象
+     */
     @Override
     protected Object determineCurrentLookupKey() {
         String typeKey = DataSourceContextHolder.getJdbcType();
         if(StringUtils.isEmpty(typeKey) || typeKey.equals(DataSourceType.write.getType())) {
-            System.out.println("MyAbstractRoutingDataSource写入：write");
+            //targetDataSources map存的是类型
             return DataSourceType.write.getType();
         }
-        // 读 简单负载均衡
+        // 读 简单负载均衡　targetDataSources map存的是数字
         int number = count.getAndAdd(1);
         int lookupKey = number % dataSourceNumber;
-        System.out.println("MyAbstractRoutingDataSource读取：read数据源 " + lookupKey);
         return new Integer(lookupKey);
     }
 }

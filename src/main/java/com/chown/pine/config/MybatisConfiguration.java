@@ -111,12 +111,12 @@ public class MybatisConfiguration
 		int size = Integer.parseInt (dataSourceSize);
 		MyAbstractRoutingDataSource proxy = new MyAbstractRoutingDataSource (size);
 		Map<Object, Object> targetDataSources = Maps.newHashMap ();
-		// DataSource writeDataSource = SpringContextHolder.getBean("writeDataSource");
+		// write存入的key是类型
 		targetDataSources.put (DataSourceType.write.getType (), dataSource);
 
 		//targetDataSources.put (DataSourceType.read.getType (), readDataSources);
-		//多个读数据库时
-		for (int i = 0; i < size; i++)
+		//多个读数据库时　read存入的key是数字
+		for (int i = 0; readDataSources != null && i < readDataSources.size(); i++)
 		{
 			targetDataSources.put (i, readDataSources.get (i));
 		}
