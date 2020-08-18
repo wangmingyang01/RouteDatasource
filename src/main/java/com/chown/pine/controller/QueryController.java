@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 
 @RestController
 @RequestMapping("/test")
-public class queryController {
+public class QueryController {
     @Resource
     private UserDao userDao;
 
