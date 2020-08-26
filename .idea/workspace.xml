@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15ace485-8014-4538-b7aa-af5dc67ad195" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chown/pine/ApplicationBootstrap.class" afterPath="$PROJECT_DIR$/target/classes/com/chown/pine/ApplicationBootstrap.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chown/pine/config/MyAbstractRoutingDataSource.class" afterPath="$PROJECT_DIR$/target/classes/com/chown/pine/config/MyAbstractRoutingDataSource.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chown/pine/config/MybatisConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/chown/pine/config/MybatisConfiguration.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chown/pine/cons/DataSourceType.class" afterPath="$PROJECT_DIR$/target/classes/com/chown/pine/cons/DataSourceType.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chown/pine/controller/QueryController.class" afterPath="$PROJECT_DIR$/target/classes/com/chown/pine/controller/QueryController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chown/pine/controller/queryController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chown/pine/db/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/chown/pine/db/dao/UserDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chown/pine/db/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/chown/pine/db/entity/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chown/pine/service/QueryService.class" afterPath="$PROJECT_DIR$/target/classes/com/chown/pine/service/QueryService.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chown/pine/AppTest.class" afterPath="" />
-    </list>
+    <list default="true" id="15ace485-8014-4538-b7aa-af5dc67ad195" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -281,11 +268,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="master-slave-database" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MASTER-SLAVE-DATABASE-master" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -501,7 +483,7 @@
       <workItem from="1596420073624" duration="588000" />
       <workItem from="1596503899889" duration="23989000" />
       <workItem from="1598092294394" duration="10000" />
-      <workItem from="1598408026118" duration="3643000" />
+      <workItem from="1598408026118" duration="3976000" />
     </task>
     <servers />
   </component>
@@ -511,7 +493,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51814000" />
+    <option name="totallyTimeSpent" value="52147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="0" width="1859" height="1080" extended-state="6" />
