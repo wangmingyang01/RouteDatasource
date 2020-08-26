@@ -106,12 +106,12 @@
         </resources>
         <!--防止ieda加载不到xml或者properties文件结束-->
 
-        <plugins>
+        <!--<plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-        </plugins>
+        </plugins>-->
     </build>
 
 </project>
